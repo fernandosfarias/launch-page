@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--IDIOMA / LANGUAGE -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <!-- TITULO DA PAGINA / PAGE TITLE -->
+  <title>Curso Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+
+    /* 👉 BACKGROUND COM IMAGEM (troque a cor por imagem) / BACKGROUND WITH IMAGE (change the color by image) */
+    header {
+      background: url('sua-imagem.jpg') no-repeat center center/cover;
+      /* Exemplo de imagem de fundo / Exemple of a background image */
+      color: white;
+      padding: 60px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .deadline {
+      color: red;
+      font-weight: bold;
+    }
+
+    .testimonial {
+      background: #eee;
+      padding: 15px;
+      margin-top: 10px;
+      border-left: 5px solid #4CAF50;
+    }
+
+    /* 👉 SEÇÃO COM OUTRO BACKGROUND DIFERENTE / SECTION WITH A DIFFERENT BACKGROUND */
+    .destaque {
+      background: url('outra-imagem.jpg') no-repeat center/cover;
+      color: white;
+      padding: 40px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Aprenda Programação do Zero</h1>
+  <p>Crie sites e comece a ganhar dinheiro online</p>
+
+  <!-- 👉 AQUI VOCÊ PODE COLOCAR UM VÍDEO DE APRESENTAÇÃO / HERE YOU CAN A PUT A APRESENTATION VIDEO -->
+  <!-- Exemplo / Exemple:
+  <video controls width="400">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+  -->
+
+  <!-- OU vídeo do YouTube / OR YouTube video:
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/SEU_VIDEO"
+    frameborder="0" allowfullscreen>
+  </iframe>
+  -->
+</header>
+
+<div class="container">
+
+  <h2>🚀 O que você vai aprender:</h2>
+  <ul>
+    <li>HTML, CSS e JavaScript</li>
+    <li>Como criar sites profissionais</li>
+    <li>Como conseguir seus primeiros clientes</li>
+  </ul>
+
+  <p class="deadline">⏰ Inscrições encerram em 5 dias!</p>
+
+  <a href="#" class="btn">Quero me inscrever agora</a>
+
+  <!-- 👉 SEÇÃO COM FUNDO DIFERENTE / SECCTION WITH A DIFFERENT BACGROUND -->
+  <div class="destaque">
+    <h2>🔥 Bônus exclusivo</h2>
+    <p>Você também recebe aulas extras de marketing digital!</p>
+  </div>
+
+  <h2>💬 O que os alunos dizem:</h2>
+
+  <div class="testimonial">
+    "Eu não sabia nada e hoje já estou trabalhando como freelancer!"
+    <br><strong>- João Silva</strong>
+  </div>
+
+  <div class="testimonial">
+    "Curso direto ao ponto e muito prático. Recomendo!"
+    <br><strong>- Maria Souza</strong>
+  </div>
+
+  <!-- 👉 FORMULÁRIO DE INSCRIÇÃO / REGISTRATION FORM -->
+  <h2>📝 Inscreva-se agora:</h2>
+
+  <form>
+    <!-- Nome / Name -->
+    <label>Nome:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <!-- Botão / Button -->
+    <button type="submit" class="btn">Quero garantir minha vaga</button>
+  </form>
+
+  <!-- 👉 AQUI VOCÊ PODE INTEGRAR COM / HERE YOU CAN INTEGRATION WITH:
+       - pagamento / payments (Hotmart, Stripe, etc)
+       - envio de email / send email
+       - automação / automation -->
+
+</div>
+
+</body>
+</html>
